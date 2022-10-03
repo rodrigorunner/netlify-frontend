@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,100&display=swap');
+
+.wraper {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #45214A;
+    height: 200px;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    color: #21445B;
+}
+
+.texto {
+    margin-top: 10px;
+}
+
+.gap {
+    margin: 16px 0;
+    background-color: #21445B;
+    color: #fff;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.gap h3 {
+    margin-left: 10px;
+}
+
+.gap p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.recursos p {
+    border-top: 1px solid #efefef ;
+    border-bottom: 1px solid #efefef ;
+    margin-bottom: 6px;
+}
+
+.recursos h3 {
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.recursos p {
+    padding: 4px 0;
+}
+
+.recursos span {
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+p.url-text { 
+    background-color: #1A6566;
+    color: #fff;
+    padding: 10px;
+}
+
+p.routes-url {
+    background-color: #21445B;
+    padding: 10px;
+    color: #fff;
+}
+
+@media(min-width: 900px) {
+    .landing {
+        font-size: 26px;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+
+    .recursos {
+        margin-left: 10px;
+    }
+    
+    .recursos .url-text {
+        width: 390px;
+        font-weight: 600;
+    }
+    
+    .recursos-display {
+       width: 400px;
+    }
+}
